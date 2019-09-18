@@ -1,0 +1,146 @@
+/* Components Styles  */
+
+/* *********** General Styles ********** */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Roboto, Arial, sans-serif;
+    color:#333;
+}
+
+/* *********** Text Styles ********** */
+
+h1{
+    font-family:Roboto-light, Arial, sans-serif;
+    font-size:3rem; /* three times the size of the default font-size */
+    font-weight:normal;
+    color:royalblue;
+}
+
+h2{
+    font-family:Roboto-medium, Arial, sans-serif;
+    font-size:2rem; /* three times the size of the default font-size */
+    margin-bottom:0.5em;
+    font-weight:normal;
+
+}
+
+    
+h3{
+    text-transform: uppercase;
+    margin-bottom:0.5em;
+}
+
+p{
+    line-height:1.3em;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+a{
+    color:royalblue;
+    text-decoration: none;
+}
+
+ul{
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+.list{
+    list-style-type: none;
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: solid 1px #ccc;
+    padding-bottom:0.5em;
+}
+
+/* *********** Buttons Styles ********** */
+
+.button{
+    width:64px;
+    border:none;
+    font-size:.875em;
+    text-transform:uppercase;
+    text-align: center;
+    background-color: teal;
+    color:white;
+    border-radius: 5px;
+    padding:0.5em;
+    box-shadow: 2px 2px 2px #999;
+    display:inline-block; /* I can change the width of this element */
+}
+
+.button:active{
+    background-color:black;
+    border:none;
+}
+
+
+/* *********** Cards Styles ********** */
+
+.card{
+    max-width:344px;
+    border:solid 1px #ccc;
+    margin-top:1em;
+    margin-bottom:1em;
+    box-shadow: 2px 2px 2px #ccc; 
+}
+
+.card_header{
+    height:72px;
+    padding-top:16px;
+    padding-left:1em;
+}
+
+.card_title{
+    font-size:1.2em;
+    font-family: Roboto-bold;
+}
+
+.card_subtitle{
+    font-size:1em;
+}
+
+.card_img{  /* div that contains the image */
+    height:300px;
+    width: 300px;
+    overflow:hidden; /* controls the part of the image that does not fit its height */
+}
+
+.card_img img{  /* img is a child of an element with the card_img class */
+    width:100%;  /* takes the width of its container */
+}
+
+.card_text{
+    margin:1em;
+}
+
+.card_button{
+    margin:0 0.5em 1em 1em;/* top, right, bottom, left */
+}
+
+
+/* *********** Navbar Styles ********** */
+
+nav{
+    background-color: royalblue;
+    padding:0.15em;
+}
+
+.navbar_list{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+    
+.navbar_li{
+    margin: 0 1em;
+}
+
+.navbar_li a{
+    color:#fff;
+}
